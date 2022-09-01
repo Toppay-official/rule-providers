@@ -1,0 +1,409 @@
+#rusleset untuk sosmed dan chatting by Toppay Official
+#jangan ada yang dirubah, kalau dirubah bisa eror
+payload:
+  # Whatsapp akrab
+  - '+.m.me'
+  - '+.oculus.com'
+  - '+.oculuscdn.com'
+  - '+.rocksdb.org'
+  - '+.whatsapp.com'
+  - '+.whatsapp.net'
+  - '+.whatsapp.com'
+  - '+.whatsapp.net'
+  - '+.g.whatsapp.net'
+  - '+.web.whatsapp.com'
+  - '+.scontent.whatsapp.net'
+  - '+.whatsapp.com'
+  - '+.static.whatsapp.net'
+  - '+.mmg.whatsapp.net'
+  - '+.media.fbdj2-1.fna.whatsapp.net'
+  - '+.media-xsp1-2.cdn.whatsapp.net'
+  - '+.graph.facebook.com'
+  - '+.bintray.com'
+  - '+.whatsapp.biz'
+  - '+.whatsapp.com'
+  - DOMAIN-KEYWORD,whatsapp
+  - IP-CIDR,108.168.174.0/16
+  - IP-CIDR,158.85.224.160/27
+  - IP-CIDR,158.85.46.128/27
+  - IP-CIDR,158.85.5.192/27
+  - IP-CIDR,173.192.222.160/27
+  - IP-CIDR,173.192.231.32/27
+  - IP-CIDR,174.37.243.0/16
+  - IP-CIDR,18.194.0.0/15
+  - IP-CIDR,184.173.128.0/17
+  - IP-CIDR,208.43.122.128/27
+  - IP-CIDR,34.224.0.0/12
+  - IP-CIDR,50.22.198.204/30
+  - IP-CIDR,54.242.0.0/15
+  - IP-CIDR,69.171.235.0/16
+  - IP-CIDR,75.126.150.0/16
+  - DST-PORT,5228
+  - DST-PORT,5222
+  - DST-PORT,38211
+  - DST-PORT,3478
+  - DST-PORT,4244
+  - DST-PORT,5222
+  - DST-PORT,5223
+  - DST-PORT,5228
+  - DST-PORT,5288
+  - DST-PORT,5242
+  - DST-PORT,5349
+  - DST-PORT,34784
+  - DST-PORT,45395
+  - DST-PORT,50318
+  - DST-PORT,59234 
+  # Instagram
+  - '+.cdninstagram.com'
+  - '+.instagram.com'
+  # Facebook
+  - '+.messenger.com'
+  - '+.facebook.com'
+  - '+.facebook.net'
+  - '+.fb.com'
+  - '+.fb.me'
+  - '+.fbaddins.com'
+  - '+.fbcdn.net'
+  - '+.fbsbx.com'
+  - '+.fbworkmail.com'
+  - DOMAIN-KEYWORD,facebook
+  - '+.facebookmail.com'
+  - IP-CIDR,157.240.0.0/16
+  - IP-CIDR,103.4.96.0/22
+  - IP-CIDR,129.134.0.0/17
+  - IP-CIDR,157.240.0.0/17
+  - IP-CIDR,173.252.64.0/19
+  - IP-CIDR,173.252.96.0/19
+  - IP-CIDR,179.60.192.0/22
+  - IP-CIDR,185.60.216.0/22
+  - IP-CIDR,204.15.20.0/22
+  - IP-CIDR,31.13.24.0/21
+  - IP-CIDR,31.13.64.0/18
+  - IP-CIDR,45.64.40.0/22
+  - IP-CIDR,66.220.144.0/20
+  - IP-CIDR,69.171.224.0/19
+  - IP-CIDR,69.63.176.0/20
+  - IP-CIDR,74.119.76.0/22
+  # Line
+  - '+.lin.ee'
+  - '+.line.me'
+  - '+.line.naver.jp'
+  - '+.line-apps.com'
+  - '+.line-cdn.net'
+  - '+.line-scdn.net'
+  - '+.nhncorp.jp'
+  - '+.naver.jp'
+  - IP-CIDR,103.2.28.0/22
+  - IP-CIDR,119.235.224.0/21
+  - IP-CIDR,119.235.232.0/23
+  - IP-CIDR,119.235.235.0/24
+  - IP-CIDR,119.235.236.0/23
+  - IP-CIDR,125.6.146.0/24
+  - IP-CIDR,125.6.149.0/24
+  - IP-CIDR,125.6.190.0/24
+  - IP-CIDR,125.209.208.0/20
+  - IP-CIDR,203.104.103.0/24
+  - IP-CIDR,203.104.128.0/20
+  - IP-CIDR,203.174.66.64/26
+  - IP-CIDR,203.174.77.0/24
+  - IP-CIDR,103.2.30.0/23
+  - IP-CIDR,125.209.208.0/20
+  - IP-CIDR,147.92.128.0/17
+  - IP-CIDR,203.104.144.0/21
+  # Telegram
+  - '+.org.thunderdog.challegram'
+  - '+.challegram.org'
+  - '+.telegram.com'
+  - '+.telegra.ph'
+  - '+.telegram.org'
+  - '+.t.me'
+  - '+.tdesktop.com'
+  - '+.telegram.me'
+  - '+.telesco.pe'
+  - IP-CIDR,91.108.4.0/22
+  - IP-CIDR,91.108.8.0/22
+  - IP-CIDR,91.108.12.0/22
+  - IP-CIDR,91.108.16.0/22
+  - IP-CIDR,91.108.20.0/22
+  - IP-CIDR,91.108.56.0/22
+  - IP-CIDR,149.154.160.0/20
+  # Twitter
+  - '+.pscp.tv'
+  - '+.periscope.tv'
+  - '+.t.co'
+  - '+.twimg.co'
+  - '+.twimg.com'
+  - '+.twitpic.com'
+  - '+.twitter.com'
+  - '+.vine.co'
+  - '+.twitter'
+  - '+.twttr.net'
+  - '+.twttr.com'
+  - '+.twitter.jp'
+  # Deezer
+  - '+.deezer.com'
+  - '+.dzcdn.net'
+  # tele
+  - DOMAIN-KEYWORD,telegram
+  - '+.comments.app'
+  - '+.contest.com'
+  - '+.venus.web.telegram.org'
+  - '+.pluto.web.telegram.org'
+  - '+.vesta.web.telegram.org'
+  - '+.venus-1.web.telegram.org'
+  - '+.vesta-1.web.telegram.org'
+  - '+.kws1-1.web.telegram.org'
+  - '+.kws2.web.telegram.org'
+  - '+.zws2.web.telegram.org'
+  - '+.pluto-1.web.telegram.org'
+  - '+.flora.web.telegram.org'
+  - '+.aurora.web.telegram.org'
+  - '+.flora-1.web.telegram.org'
+  - '+.zws3.web.telegram.org'
+  - '+.zws4.web.telegram.org'
+  - '+.kws4.web.telegram.org'
+  - '+.kws3.web.telegram.org'
+  - '+.zws1.web.telegram.org'
+  - '+.kws1.web.telegram.org'
+  - '+.zws2-1.web.telegram.org'
+  - '+.kws5.web.telegram.org'
+  - '+.kws4-1.web.telegram.org'
+  - '+.aurora-1.web.telegram.org'
+  - '+.kws5-1.web.telegram.org'
+  - '+.kws2-1.web.telegram.org'
+  - '+.zws1-1.web.telegram.org'
+  - '+.zws4-1.web.telegram.org'
+  - '+.zws5-1.web.telegram.org'
+  - '+.kws3-1.web.telegram.org'
+  - '+.zws3-1.web.telegram.org'
+  - '+.zws5.web.telegram.org'
+  - '+.graph.org'
+  - '+.quiz.directory'
+  - '+.t.me'
+  - '+.tdesktop.com'
+  - '+.telega.one'
+  - '+.telegra.ph'
+  - '+.telegram.dog'
+  - '+.telegram.me'
+  - '+.telegram.org'
+  - '+.telegram.space'
+  - '+.telesco.pe'
+  - '+.tg.dev'
+  - '+.tx.me'
+  - '+.usercontent.dev'
+ #cidr
+  - '91.105.192.0/23'
+  - '91.108.4.0/22'
+  - '91.108.8.0/21'
+  - '91.108.16.0/21'
+  - '91.108.56.0/22'
+  - '95.161.64.0/20'
+  - '149.154.160.0/20'
+  - '185.76.151.0/24'
+  - '2001:67c:4e8::/48'
+  - '2001:b28:f23c::/47'
+  - '2001:b28:f23f::/48'
+  - '2a0a:f280:203::/48'
+
+  - IP-CIDR,91.105.192.0/23
+  - IP-CIDR,91.108.4.0/22
+  - IP-CIDR,91.108.8.0/21
+  - IP-CIDR,91.108.16.0/21
+  - IP-CIDR,91.108.56.0/22
+  - IP-CIDR,95.161.64.0/20
+  - IP-CIDR,149.154.160.0/20
+  - IP-CIDR,185.76.151.0/24
+  - IP-CIDR,2001:67c:4e8::/48
+  - IP-CIDR,2001:b28:f23c::/47
+  - IP-CIDR,2001:b28:f23f::/48
+  - IP-CIDR,2a0a:f280:203::/48
+
+  # TikTok
+  - '+.byteoversea.com'
+  - '+.ibytedtos.com'
+  - '+.ipstatp.com'
+  - '+.muscdn.com'
+  - '+.musical.ly'
+  - '+.tiktok.com'
+  - '+.tik-tokapi.com'
+  - '+.tiktokcdn.com'
+  - '+.tiktokv.com'
+  - '+.tiktokcdn-com'
+  # HBO GO HKG
+  - '+.hbogoasia.com'
+  - '+.hbogoasia.hk'
+  - '+.bcbolthboa-a.akamaihd.net'
+  - '+.players.brightcove.net'
+  - '+.s3-ap-southeast-1.amazonaws.com'
+  - '+.dai3fd1oh325y.cloudfront.net'
+  - '+.44wilhpljf.execute-api.ap-southeast-1.amazonaws.com'
+  - '+.hboasia1-i.akamaihd.net'
+  - '+.hboasia2-i.akamaihd.net'
+  - '+.hboasia3-i.akamaihd.net'
+  - '+.hboasia4-i.akamaihd.net'
+  - '+.hboasia5-i.akamaihd.net'
+  - '+.cf-images.ap-southeast-1.prod.boltdns.net'
+  - '+.bcbolthboa-a.akamaihd.net'
+  - '+.cf-images.ap-southeast-1.prod.boltdns.net'
+  - '+.cinemax.com'
+  - '+.dai3fd1oh325y.cloudfront.net'
+  - '+.execute-api.ap-southeast-1.amazonaws.com'
+  - '+.execute-api.us-east-1.amazonaws.com'
+  - '+.forthethrone.com'
+  - '+.hbo.com'
+  - '+.hboasia.com'
+  - DOMAIN-SUFFIX,hboasia1-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia2-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia3-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia4-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasia5-i.akamaihd.net
+  - DOMAIN-SUFFIX,hboasialive.akamaized.net
+  - DOMAIN-SUFFIX,hbogeo.cust.footprint.net
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbogoprod-vod.akamaized.net
+  - DOMAIN-SUFFIX,hbolb.onwardsmg.com
+  - DOMAIN-SUFFIX,hbomax.com
+  - DOMAIN-SUFFIX,hbomaxcdn.com
+  - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,hbounify-prod.evergent.com
+  - DOMAIN-SUFFIX,manifest.prod.boltdns.net
+  - DOMAIN-SUFFIX,maxgo.com
+  - DOMAIN-SUFFIX,now-ashare.com
+  - DOMAIN-SUFFIX,now-tv.com
+  - DOMAIN-SUFFIX,now.com
+  - DOMAIN-SUFFIX,now.com.hk
+  - DOMAIN-SUFFIX,nowe.com
+  - DOMAIN-SUFFIX,nowe.hk
+  - DOMAIN-SUFFIX,players.brightcove.net
+  - DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
+  - DOMAIN-SUFFIX,youboranqs01.com
+  - DOMAIN-SUFFIX,hbo.com
+  - DOMAIN-SUFFIX,hbogo.com
+  - DOMAIN-SUFFIX,hbonow.com
+  - DOMAIN-SUFFIX,hbomax.com
+  # Disney+
+  - DOMAIN-KEYWORD,hotstar
+  - DOMAIN-SUFFIX,hotstar.com
+  - DOMAIN-SUFFIX,expressplay.com
+  - DOMAIN-SUFFIX,measurement.com
+  - DOMAIN-SUFFIX,bamgrid.com
+  - DOMAIN-SUFFIX,disneyplus.com
+  - DOMAIN-SUFFIX,disney-plus.net
+  - DOMAIN-SUFFIX,disneystreaming.com
+  - DOMAIN-SUFFIX,dssott.com
+  - DOMAIN,cdn.registerdisney.go.com
+  # TikTok
+  - DOMAIN-SUFFIX,byteoversea.com
+  - DOMAIN-SUFFIX,ibytedtos.com
+  - DOMAIN-SUFFIX,ipstatp.com
+  - DOMAIN-SUFFIX,muscdn.com
+  - DOMAIN-SUFFIX,musical.ly
+  - DOMAIN-SUFFIX,tiktok.com
+  - DOMAIN-SUFFIX,tik-tokapi.com
+  - DOMAIN-SUFFIX,tiktokcdn.com
+  - DOMAIN-SUFFIX,tiktokv.com
+  - DOMAIN-KEYWORD,-tiktokcdn-com  
+
+
+  # > MICROSOFT
+  - DOMAIN-SUFFIX,smartscreen-prod.microsoft.com
+  - DOMAIN-SUFFIX,self.events.data.microsoft.com
+  - DOMAIN-SUFFIX,nav.smartscreen.microsoft.com
+  - DOMAIN-SUFFIX,edge.microsoft.com
+  
+  # > RUANGGURU
+  - DOMAIN-SUFFIX,ruangguru.com
+  - DOMAIN-SUFFIX,belajar.ruangguru.com
+  - DOMAIN-SUFFIX,midtrans.com
+  - DOMAIN-SUFFIX,api.midtrans.com
+  
+  # > ZOOM
+  - DOMAIN-SUFFIX,zoom.us
+  - DOMAIN-SUFFIX,google.zoom.us
+  - DOMAIN-SUFFIX,us02st1.zoom.us
+  - DOMAIN-SUFFIX,us03st1.zoom.us
+  - DOMAIN-SUFFIX,us04st1.zoom.us
+  - DOMAIN-SUFFIX,us02st2.zoom.us
+  - DOMAIN-SUFFIX,us03st2.zoom.us
+  - DOMAIN-SUFFIX,us04st2.zoom.us
+  - DOMAIN-SUFFIX,us02st3.zoom.us
+  - DOMAIN-SUFFIX,us03st3.zoom.us
+  - DOMAIN-SUFFIX,us04st3.zoom.us
+  - DOMAIN-SUFFIX,us02web.zoom.us
+  - DOMAIN-SUFFIX,zoom.ada.support
+  - DOMAIN-SUFFIX,st1.zoom.us
+  - DOMAIN-SUFFIX,us02zpns.zoom.us
+  - DOMAIN-SUFFIX,us04xmppapi.zoom.us
+  - DOMAIN-SUFFIX,us04st1.zoom.us
+  - DOMAIN-SUFFIX,us04xmpp1.zoom.us
+  - DOMAIN-SUFFIX,xmpp013.zoom.us
+  - DOMAIN-SUFFIX,logfiles.zoom.us
+  - DOMAIN-SUFFIX,cdn.zoom.us
+  - DOMAIN-SUFFIX,zoom-general.s3.amazonaws.com
+  - DOMAIN-SUFFIX,zoomca193-123-14-89mmr.cloud.zoom.us
+  - DOMAIN-SUFFIX,zoomca193-123-1-56zc.cloud.zoom.us
+  - DST-PORT,8801
+  - DST-PORT,8802
+  - DST-PORT,3478
+  - DST-PORT,3479
+ 
+  # > AREA KHUSUS XL AKRAB
+  # > GOOGLE MEET, CLASSROOM, HANGOUTS, MAPS
+  - DOMAIN-SUFFIX,meetings.googleapis.com
+  - DOMAIN-SUFFIX,classroom.google.com
+  - DOMAIN-SUFFIX,hangouts.googleapis.com
+  # MAPS
+  - DOMAIN-SUFFIX,userlocation.googleapis.com
+  - DOMAIN-SUFFIX,stun.l.google.com
+  - DOMAIN-SUFFIX,instantmessaging-pa.googleapis.com
+  - DOMAIN-SUFFIX,mtalk.google.com
+  - DOMAIN-SUFFIX,mobilemaps.googleapis.com
+  - DOMAIN-SUFFIX,mobilemaps-pa-gz.googleapis.com
+  - DOMAIN-SUFFIX,clients4.google.com
+  - DOMAIN-SUFFIX,android.googleapis.com
+  - DOMAIN-SUFFIX,safebrowsing.googleapis.com
+  - DOMAIN-SUFFIX,lh3.googleusercontent.com
+  - DOMAIN-SUFFIX,lh5.googleusercontent.com
+  - DOMAIN-SUFFIX,apis.google.com
+  - DOMAIN-SUFFIX,peoplestack-pa.googleapis.com
+  - DOMAIN-SUFFIX,gz0.googleusercontent.com
+  - DOMAIN-SUFFIX,geoar.googleapis.com
+  - DOMAIN-SUFFIX,streetviewpixels-pa.googleapis.com
+  - DOMAIN-SUFFIX,maps.gstatic.com
+  - DOMAIN-SUFFIX,maps.google.com
+  - DOMAIN-SUFFIX,optimizationguide-pa.googleapis.com
+  # CLASSROOM
+  - DOMAIN-SUFFIX,dns.google
+  - DOMAIN-SUFFIX,clients3.google.com
+  - DOMAIN-SUFFIX,notifications-pa.googleapis.com
+  # PORTS
+  - DST-PORT,19302
+  - DST-PORT,19305
+  
+  # > Microsoft Teams
+  - DOMAIN,teams.events.data.microsoft.com
+  - DOMAIN-SUFFIX,teams.cdn.live.net
+  - DOMAIN-SUFFIX,teams.live.com
+  - DOMAIN-SUFFIX,teams.microsoft.com
+  
+  # > Campuran
+  # - DOMAIN-KEYWORD,zoom.us
+  # - DOMAIN-KEYWORD,meet.google.com
+  # - DOMAIN-KEYWORD,ruangguru.com
+  # - DOMAIN-KEYWORD,zenius.com
+  # - DOMAIN-KEYWORD,office.com
+  # - DOMAIN-KEYWORD,trouter.io
+  # - DOMAIN-KEYWORD,skype.com
+  # - DOMAIN-KEYWORD,skype.net
+  # - DOMAIN-KEYWORD,cortana.ai
+  # - DOMAIN-KEYWORD,customspeech.ai
+  # - DOMAIN-KEYWORD,bing.com
+  # - DOMAIN-KEYWORD,microsoft.com
+  # - DOMAIN-KEYWORD,hivestreaming.com
+  # - DOMAIN-KEYWORD,kollective.app
+  # - DOMAIN-KEYWORD,kollectivecd.com
+  # - DOMAIN-KEYWORD,office365.us
+  # - DOMAIN-KEYWORD,live.com
+  # - DOMAIN-KEYWORD,svc.ms
+  # - DOMAIN-KEYWORD,office.com
+  # - DOMAIN-KEYWORD,officeppe.com
